@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         Log.d("MAIN_TAG" , "myTag from main branch")
 
         Log.d("Lenovo_TAG" , "random : ${generateRandomList()}")
+        
+        val user = User(101 , "peter" , "8901" , "peter@gmail.com")
+        print(user)
     }
 }
 
